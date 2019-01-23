@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjektModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Pogoda">
+    <Key>
+      <PropertyRef Name="IdWpisu" />
+    </Key>
+    <Property Name="IdWpisu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="date" />
+    <Property Name="Miasto" Type="nvarchar" MaxLength="30" />
+    <Property Name="Temperatura" Type="int" />
+    <Property Name="Ciśnienie" Type="nvarchar" MaxLength="4" />
+    <Property Name="Zachmurzenie" Type="bit" />
+    <Property Name="Deszcz" Type="bit" />
+    <Property Name="Śnieg" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="ProjektModelStoreContainer">
+    <EntitySet Name="Pogoda" EntityType="Self.Pogoda" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

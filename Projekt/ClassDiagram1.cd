@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Projekt.App" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.WpisBazaDanych" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Baza\WpisBazaDanych.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAABAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Projekt.PogodaMiasto" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PogodaMiasto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.PogodaWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAIACQAAACIAAgAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>PogodaWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Projekt.WpisWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAIAAgAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>WpisWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Projekt.Baza.ProjektEntities2" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Baza\Baza.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Baza.Pogoda" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAABAAAAIAIAAQAAAAAABgAAAAAAAAAAAA=</HashCode>
+      <FileName>Baza\Pogoda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Klasy.MainWindow.MainWindowMetody" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAACAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klasy\MainWindow\MainWindowMetody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Klasy.PogodaWindow.PogodaWindowMetody" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAIAAAAAAEAAAAAABAAAAAAAAEAA=</HashCode>
+      <FileName>Klasy\PogodaWindow\PogodaWindowMetody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Klasy.ZapisOdczytPliku.ZapisJSON" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>Klasy\PogodaWindow\ZapisJSON.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Klasy.WpisWindow.WpisWindowMetody" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAIAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klasy\WpisWindow\WpisWindowMetody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Properties.Resources" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Configuration.ApplicationSettingsBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

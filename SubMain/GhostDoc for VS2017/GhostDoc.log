@@ -1,0 +1,35 @@
+Log Message (13.01.2019 20:43:23) : Information: Initialize package...
+Log Message (13.01.2019 20:43:23) : Information: The package initialized successfully
+Log Message (13.01.2019 20:43:42) : Information: Initialize DTE v15.0
+Log Message (13.01.2019 20:43:42) : VsPackage Loaded, m_dteApplication != null
+Log Message (13.01.2019 20:43:42) : LoadPackage v18.1.18330.0
+Log Message (13.01.2019 20:43:42) : Default optimizaton: Performance
+Log Message (13.01.2019 20:43:42) : Run InitializeAddIn from LoadPackage: application != null
+Log Message (13.01.2019 20:43:42) : Information: Create RuleConfigurationFile instance for file: "SubMain\GhostDoc for VS2017\Configuration.gdc", hash: 1917273097
+Log Message (13.01.2019 20:43:42) : GetIntegrationInformation: the "c:\users\gabri\appdata\local\microsoft\visualstudio\15.0_5d7c85d9\extensions\0vhatyvx.i15\GhostDocSetup.xml" setup configuration file is not exist
+Log Message (13.01.2019 20:43:42) : IsJustInstalled: True;True
+Log Message (13.01.2019 20:43:42) : IsJustInstalled = TRUE
+Log Message (13.01.2019 20:43:42) : Information: RuleConfigurationFile Save, hash: 1917273097
+Log Message (13.01.2019 20:43:43) : SEH Subscribe started...
+Log Message (13.01.2019 20:43:43) : SEH Subscribe finish
+Log Message (13.01.2019 20:43:43) : VsPackage->Initialize-> solution exists...
+Log Message (13.01.2019 20:43:43) : SEH OnAfterBackgroundSolutionLoadComplete: started...
+Log Message (13.01.2019 20:43:43) : SEH Run backgroundSolutionLoader async..
+Log Message (13.01.2019 20:43:43) : SEH BackgroundSL: starting...
+Log Message (13.01.2019 20:43:44) : SEH OnAfterOpenSolutionInternal: starting...
+Log Message (13.01.2019 20:43:44) : Opening solution - D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt.sln, projects = 2
+Log Message (13.01.2019 20:43:44) : Loading project: Projekt (D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master)
+Log Message (13.01.2019 20:43:44) : SolutionPropertyService->Read-> no property file: D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt.sln.GhostDoc.xml
+Log Message (13.01.2019 20:43:44) : SolutionPropertyService->Read-> set defaults.
+Log Message (13.01.2019 20:43:44) : Solution opened - Projekt, projects = 1, Size = 32195 bytes
+Log Message (13.01.2019 20:43:44) : OnAfterOpenSolution: isSolutionLoaded: true
+Log Message (13.01.2019 20:43:44) : SEH BackgroundSL: finished.
+Log Message (13.01.2019 20:51:49) : TrackProjectDocumentsEventHandler.OnAfterAddFilesEx: add valid project item 'D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\IZapisywalny.cs'
+Log Message (13.01.2019 20:55:24) : TrackProjectDocumentsEventHandler.OnAfterAddFilesEx: add valid project item 'D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\IZapisywalny.cs'
+Log Message (13.01.2019 20:58:43) : CheckSubscriptions method start
+Log Message (13.01.2019 20:58:43) : CheckSubscriptions run UpdateRulesCommand...
+Log Message (13.01.2019 20:58:44) : Start CheckLatestVersionCommand...
+Log Message (13.01.2019 20:58:44) : Run WS CheckVersion with params: 2018.1.18330|gd|54620-F8BEC-2FC9A-8120B-5C436|33D6A1AC2827FD3A5B6BB6E45B55B39A
+Log Message (13.01.2019 20:58:46) : Comparing versions: 2018.1.18330 vs 2018.1.18330
+Log Message (13.01.2019 20:58:46) : Finish CheckLatestVersionCommand successfully.
+Log Message (13.01.2019 20:58:46) : CheckSubscriptions method finished
