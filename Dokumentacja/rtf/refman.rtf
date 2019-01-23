@@ -1,0 +1,3266 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Projekt PO }Projekt PO}
+{\comment Generated by doxygen.}
+{\creatim \yr2019\mo1\dy23\hr12\min52\sec10}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Projekt PO}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Wed Jan 23 2019 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+LICENSE{\tc \v LICENSE}\par \pard\plain 
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The MIT License (MIT)\par
+Copyright (c) 2007 James Newton-King\par
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\par
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\par
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. \par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Index\par \pard\plain 
+{\tc \v Namespace Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Packages\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the packages with brief descriptions (if available):}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Projekt} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Baza} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.MainWindow} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.PogodaWindow} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.WpisWindow} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.ZapisOdczytPliku} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Properties} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Hierarchical Index\par \pard\plain 
+{\tc \v Hierarchical Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class Hierarchy\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This inheritance list is sorted roughly, but not completely, alphabetically:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Application
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+ApplicationSettingsBase
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.Properties.Settings\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+DbContext
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.Baza.ProjektEntities2\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+IComponentConnector
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Projekt.IZapisywalny\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.Klasy.ZapisOdczytPliku.ZapisJSON\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Projekt.Klasy.MainWindow.MainWindowMetody\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.Klasy.PogodaWindow.PogodaWindowMetody\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.Properties.Resources\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Window
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.PogodaWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Window
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.WpisWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Projekt.WpisBazaDanych\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Projekt.Baza.Pogoda\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Projekt.Klasy.WpisWindow.WpisWindowMetody\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Projekt.App} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.IZapisywalny} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+})} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.MainWindow} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.MainWindow.MainWindowMetody} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Baza.Pogoda} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Klasa dla wpisu z bazy danych })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.PogodaWindow} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.PogodaWindow.PogodaWindowMetody} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Baza.ProjektEntities2} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Properties.Resources} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A strongly-typed resource class, for looking up localized strings, etc })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Properties.Settings} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.WpisBazaDanych} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+})} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.WpisWindow} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.WpisWindow.WpisWindowMetody} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Projekt.Klasy.ZapisOdczytPliku.ZapisJSON} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b Projekt/{\b App.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/{\b IZapisywalny.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Baza/{\b Baza.Context.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Baza/{\b Baza.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Baza/{\b Baza.Designer.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Baza/{\b Pogoda.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Baza/{\b WpisBazaDanych.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/MainWindow/{\b MainWindow.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/MainWindow/{\b MainWindowMetody.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b App.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b App.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b MainWindow.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b MainWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b PogodaWindow.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b PogodaWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b Projekt_Content.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b Projekt_Content.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b WpisWindow.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/{\b WpisWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/Baza/{\b PogodaWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/MainWindow/{\b MainWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/PogodaWindow/{\b PogodaWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/obj/Debug/WpisWindow/{\b WpisWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/PogodaWindow/{\b PogodaWindow.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/PogodaWindow/{\b PogodaWindowMetody.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/PogodaWindow/{\b ZapisJSON.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Properties/{\b AssemblyInfo.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Properties/{\b Resources.Designer.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/Properties/{\b Settings.Designer.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/WpisWindow/{\b WpisWindow.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projekt/WpisWindow/{\b WpisWindowMetody.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Documentation\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt}
+{\xe \v Projekt}
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Baza}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Klasy}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Properties}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b App}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+interface {\b IZapisywalny}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b MainWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b WpisBazaDanych}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b WpisWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Baza Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Baza}
+{\xe \v Projekt.Baza}
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Pogoda}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Klasa dla wpisu z bazy danych. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ProjektEntities2}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy}
+{\xe \v Projekt.Klasy}
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b MainWindow}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b PogodaWindow}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b WpisWindow}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b ZapisOdczytPliku}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.MainWindow Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.MainWindow}
+{\xe \v Projekt.Klasy.MainWindow}
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b MainWindowMetody}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.PogodaWindow Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.PogodaWindow}
+{\xe \v Projekt.Klasy.PogodaWindow}
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b PogodaWindowMetody}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.WpisWindow Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.WpisWindow}
+{\xe \v Projekt.Klasy.WpisWindow}
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b WpisWindowMetody}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.ZapisOdczytPliku Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.ZapisOdczytPliku}
+{\xe \v Projekt.Klasy.ZapisOdczytPliku}
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ZapisJSON}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Properties Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Properties}
+{\xe \v Projekt.Properties}
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Resources}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A strongly-typed resource class, for looking up localized strings, etc. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Settings}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.App Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.App}
+{\xe \v Projekt.App}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml }}\par
+Inheritance diagram for Projekt.App:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_app.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b Main} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b Main} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b App}\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v InitializeComponent\:Projekt.App}
+{\xe \v Projekt.App\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.App.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.App}
+{\xe \v Projekt.App\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.App.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v Main\:Projekt.App}
+{\xe \v Projekt.App\:Main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void Projekt.App.Main (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v Main\:Projekt.App}
+{\xe \v Projekt.App\:Main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void Projekt.App.Main (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/{\b App.xaml.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/{\b App.g.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/{\b App.g.i.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.IZapisywalny Interface Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.IZapisywalny}
+{\xe \v Projekt.IZapisywalny}
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+}}\par
+Inheritance diagram for Projekt.IZapisywalny:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "interface_projekt_1_1_i_zapisywalny.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b ZapiszPlik} (string m)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interfejs dla klas obs\'C5\'82uguj\'C4\'85cych serializacj\'C4\'99 do pliku (JSON/XML). \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v ZapiszPlik\:Projekt.IZapisywalny}
+{\xe \v Projekt.IZapisywalny\:ZapiszPlik}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.IZapisywalny.ZapiszPlik (string  {\i m})}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implemented in {\b Projekt.Klasy.ZapisOdczytPliku.ZapisJSON} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this interface was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/{\b IZapisywalny.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.MainWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.MainWindow}
+{\xe \v Projekt.MainWindow}
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par
+Inheritance diagram for Projekt.MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_main_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b MainWindow} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicjalizuje now\'C4\'85 instancj\'C4\'99 klasy {\b MainWindow}, tworzy nowy obiekt "metody" b\'C4\'99d\'C4\'85cy instancj\'C4\'85 klasy MainWindowMetody. Wype\'C5\'82nia kontrolk\'C4\'99 Miasta_ComboBox zawieraj\'C4\'85c\'C4\'85 miasta do wyboru dla u\'C5\'BCytkownika. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b MainWindow}\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v MainWindow\:Projekt.MainWindow}
+{\xe \v Projekt.MainWindow\:MainWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.MainWindow.MainWindow ()}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicjalizuje now\'C4\'85 instancj\'C4\'99 klasy {\b MainWindow}, tworzy nowy obiekt "metody" b\'C4\'99d\'C4\'85cy instancj\'C4\'85 klasy MainWindowMetody. Wype\'C5\'82nia kontrolk\'C4\'99 Miasta_ComboBox zawieraj\'C4\'85c\'C4\'85 miasta do wyboru dla u\'C5\'BCytkownika. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v InitializeComponent\:Projekt.MainWindow}
+{\xe \v Projekt.MainWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.MainWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.MainWindow}
+{\xe \v Projekt.MainWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.MainWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.MainWindow}
+{\xe \v Projekt.MainWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.MainWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/MainWindow/{\b MainWindow.xaml.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/MainWindow/{\b MainWindow.g.i.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/{\b MainWindow.g.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.MainWindow.MainWindowMetody Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.MainWindow.MainWindowMetody}
+{\xe \v Projekt.Klasy.MainWindow.MainWindowMetody}
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b WypelnijComboBox} (ComboBox combo)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia Miasta_ComboBox dost\'C4\'99pnymi miastami. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b MainWindowMetody} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor instancji klasy {\b MainWindowMetody}. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v MainWindowMetody\:Projekt.Klasy.MainWindow.MainWindowMetody}
+{\xe \v Projekt.Klasy.MainWindow.MainWindowMetody\:MainWindowMetody}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.Klasy.MainWindow.MainWindowMetody.MainWindowMetody ()}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor instancji klasy {\b MainWindowMetody}. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v WypelnijComboBox\:Projekt.Klasy.MainWindow.MainWindowMetody}
+{\xe \v Projekt.Klasy.MainWindow.MainWindowMetody\:WypelnijComboBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.MainWindow.MainWindowMetody.WypelnijComboBox (ComboBox  {\i combo})}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia Miasta_ComboBox dost\'C4\'99pnymi miastami. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i combo} \cell }{Lista rozwijana\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/MainWindow/{\b MainWindowMetody.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Baza.Pogoda Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda}
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Klasa dla wpisu z bazy danych. }}\par
+Inheritance diagram for Projekt.Baza.Pogoda:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_baza_1_1_pogoda.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Properties\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Miasto}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nullable< int > {\b Temperatura}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Ci\'C5\'9Bnienie}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nullable< bool > {\b Zachmurzenie}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nullable< bool > {\b Deszcz}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nullable< bool > {\b \'C5\'9Anieg}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Klasa dla wpisu z bazy danych. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+See also:\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\b Projekt.WpisBazaDanych}\par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Property Documentation\par
+\pard\plain 
+{\xe \v Ci\'C5\'9Bnienie\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:Ci\'C5\'9Bnienie}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Projekt.Baza.Pogoda.Ci\'C5\'9Bnienie{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Deszcz\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:Deszcz}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Nullable<bool> Projekt.Baza.Pogoda.Deszcz{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Miasto\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:Miasto}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Projekt.Baza.Pogoda.Miasto{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Temperatura\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:Temperatura}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Nullable<int> Projekt.Baza.Pogoda.Temperatura{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Zachmurzenie\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:Zachmurzenie}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Nullable<bool> Projekt.Baza.Pogoda.Zachmurzenie{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v \'C5\'9Anieg\:Projekt.Baza.Pogoda}
+{\xe \v Projekt.Baza.Pogoda\:\'C5\'9Anieg}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Nullable<bool> Projekt.Baza.Pogoda.\'C5\'9Anieg{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/Baza/{\b Pogoda.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.PogodaWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow}
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par
+Inheritance diagram for Projekt.PogodaWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_pogoda_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b PogodaWindow} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicjalizacja nowej instancji klasy {\b PogodaWindow}. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b PogodaWindow} (string miasto)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor okna zawieraj\'C4\'85cego wpisy z bazy danych o pogodzie w danym mie\'C5\'9Bcie. Wype\'C5\'82niany jest DataGrid (ustawiony w tryb tylko do odczytu). }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga PogodaWindow.xaml\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v PogodaWindow\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:PogodaWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.PogodaWindow.PogodaWindow ()}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inicjalizacja nowej instancji klasy {\b PogodaWindow}. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v PogodaWindow\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:PogodaWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.PogodaWindow.PogodaWindow (string  {\i miasto})}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor okna zawieraj\'C4\'85cego wpisy z bazy danych o pogodzie w danym mie\'C5\'9Bcie. Wype\'C5\'82niany jest DataGrid (ustawiony w tryb tylko do odczytu). }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i miasto} \cell }{Miasto wybrane przez u\'C5\'BCytkownika w Miasta_ComboBox\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v InitializeComponent\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.PogodaWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.PogodaWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.PogodaWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.PogodaWindow}
+{\xe \v Projekt.PogodaWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.PogodaWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/Baza/{\b PogodaWindow.g.i.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/{\b PogodaWindow.g.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/PogodaWindow/{\b PogodaWindow.xaml.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.PogodaWindow.PogodaWindowMetody Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\xe \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b WypelnijDataGrid} (DataGrid dataGrid, string miasto)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia DataGrid wpisami z bazy danych dla danego miasta. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Pogoda} > {\b Modyfikacja} (DataGrid grid, string miasto)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Modyfikuje wybrany element bazy danych. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b Usun} (List< {\b Pogoda} > modyfikacja, ref DataGrid grid)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Po potwierdzeniu przez u\'C5\'BCytkownika usuwa wybrany element bazy danych. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Pogoda} > {\b szczegoly}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v Modyfikacja\:Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\xe \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody\:Modyfikacja}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b Pogoda}> Projekt.Klasy.PogodaWindow.PogodaWindowMetody.Modyfikacja (DataGrid  {\i grid}, string  {\i miasto})}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Modyfikuje wybrany element bazy danych. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i grid} \cell }{DataGrid\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i miasto} \cell }{Miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Returns:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid Lista wpis\'F3w z bazy danych.\par
+}}}
+{\xe \v Usun\:Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\xe \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody\:Usun}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.PogodaWindow.PogodaWindowMetody.Usun (List< {\b Pogoda} >  {\i modyfikacja}, ref DataGrid  {\i grid})}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Po potwierdzeniu przez u\'C5\'BCytkownika usuwa wybrany element bazy danych. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i modyfikacja} \cell }{Lista wpis\'F3w z bazy danych.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i grid} \cell }{DataGrid\cell }
+{\row }
+}
+}}
+{\xe \v WypelnijDataGrid\:Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\xe \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody\:WypelnijDataGrid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.PogodaWindow.PogodaWindowMetody.WypelnijDataGrid (DataGrid  {\i dataGrid}, string  {\i miasto})}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia DataGrid wpisami z bazy danych dla danego miasta. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dataGrid} \cell }{DatGrid\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i miasto} \cell }{Miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Data Documentation\par
+\pard\plain 
+{\xe \v szczegoly\:Projekt.Klasy.PogodaWindow.PogodaWindowMetody}
+{\xe \v Projekt.Klasy.PogodaWindow.PogodaWindowMetody\:szczegoly}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b Pogoda}> Projekt.Klasy.PogodaWindow.PogodaWindowMetody.szczegoly}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/PogodaWindow/{\b PogodaWindowMetody.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Baza.ProjektEntities2 Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Baza.ProjektEntities2}
+{\xe \v Projekt.Baza.ProjektEntities2}
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+Inheritance diagram for Projekt.Baza.ProjektEntities2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_baza_1_1_projekt_entities2.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ProjektEntities2} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b OnModelCreating} (DbModelBuilder modelBuilder)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Properties\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual DbSet< {\b Pogoda} > {\b Pogoda}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v ProjektEntities2\:Projekt.Baza.ProjektEntities2}
+{\xe \v Projekt.Baza.ProjektEntities2\:ProjektEntities2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.Baza.ProjektEntities2.ProjektEntities2 ()}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v OnModelCreating\:Projekt.Baza.ProjektEntities2}
+{\xe \v Projekt.Baza.ProjektEntities2\:OnModelCreating}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void Projekt.Baza.ProjektEntities2.OnModelCreating (DbModelBuilder  {\i modelBuilder}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Property Documentation\par
+\pard\plain 
+{\xe \v Pogoda\:Projekt.Baza.ProjektEntities2}
+{\xe \v Projekt.Baza.ProjektEntities2\:Pogoda}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual DbSet<{\b Pogoda}> Projekt.Baza.ProjektEntities2.Pogoda{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/Baza/{\b Baza.Context.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Properties.Resources Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Properties.Resources}
+{\xe \v Projekt.Properties.Resources}
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A strongly-typed resource class, for looking up localized strings, etc. }}\par
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A strongly-typed resource class, for looking up localized strings, etc. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/Properties/{\b Resources.Designer.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Properties.Settings Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Properties.Settings}
+{\xe \v Projekt.Properties.Settings}
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+Inheritance diagram for Projekt.Properties.Settings:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_properties_1_1_settings.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Properties\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static {\b Settings} {\b Default}{\f2  [get]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Property Documentation\par
+\pard\plain 
+{\xe \v Default\:Projekt.Properties.Settings}
+{\xe \v Projekt.Properties.Settings\:Default}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Settings} Projekt.Properties.Settings.Default{\f2 [static]}, {\f2 [get]}}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/Properties/{\b Settings.Designer.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.WpisBazaDanych Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.WpisBazaDanych}
+{\xe \v Projekt.WpisBazaDanych}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+}}\par
+Inheritance diagram for Projekt.WpisBazaDanych:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_wpis_baza_danych.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Properties\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b IdWpisu}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Nullable< DateTime > {\b Data}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Abstrakcyjna klasa, po kt\'C3\'B3rej dziedziczy\'C4\'87 b\'C4\'99d\'C4\'85 wszystkie wpisy z baz danych dodane teraz lub w przysz\'C5\'82o\'C5\'9Bci. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Property Documentation\par
+\pard\plain 
+{\xe \v Data\:Projekt.WpisBazaDanych}
+{\xe \v Projekt.WpisBazaDanych\:Data}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Nullable<DateTime> Projekt.WpisBazaDanych.Data{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v IdWpisu\:Projekt.WpisBazaDanych}
+{\xe \v Projekt.WpisBazaDanych\:IdWpisu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Projekt.WpisBazaDanych.IdWpisu{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/Baza/{\b WpisBazaDanych.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.WpisWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow}
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par
+Inheritance diagram for Projekt.WpisWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_wpis_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b WpisWindow} (string miasto, ref DataGrid gridDetalePogody)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b WpisWindow}. Tworzy obiekty klas WpisWindowMetody oraz PogodaWindowMetody. Nie zawiera \'C5\'BCadnych danych, poniewa\'C5\'BC obs\'C5\'82uguje dodawanie wpisu do bazy danych. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b WpisWindow} (List< {\b Pogoda} > doEdycji, string miasto, ref DataGrid gridDetalePogody)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b WpisWindow} dla modyfikowania danych. Zmienia zawarto\'C5\'9B\'C4\'87 przycisku "Dodaj" na "Modyfikuj", wype\'C5\'82nia TextBoxy szczeg\'C3\'B3\'C5\'82ami wybranego wpisu. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga WpisWindow.xaml\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v WpisWindow\:Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow\:WpisWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.WpisWindow.WpisWindow (string  {\i miasto}, ref DataGrid  {\i gridDetalePogody})}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b WpisWindow}. Tworzy obiekty klas WpisWindowMetody oraz PogodaWindowMetody. Nie zawiera \'C5\'BCadnych danych, poniewa\'C5\'BC obs\'C5\'82uguje dodawanie wpisu do bazy danych. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i miasto} \cell }{Miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i gridDetalePogody} \cell }{DataGrid zawieraj\'C4\'85cy szczeg\'C3\'B3\'C5\'82y pogody w wybranym mie\'C5\'9Bcie.\cell }
+{\row }
+}
+}}
+{\xe \v WpisWindow\:Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow\:WpisWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.WpisWindow.WpisWindow (List< {\b Pogoda} >  {\i doEdycji}, string  {\i miasto}, ref DataGrid  {\i gridDetalePogody})}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b WpisWindow} dla modyfikowania danych. Zmienia zawarto\'C5\'9B\'C4\'87 przycisku "Dodaj" na "Modyfikuj", wype\'C5\'82nia TextBoxy szczeg\'C3\'B3\'C5\'82ami wybranego wpisu. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i doEdycji} \cell }{Lista wpis\'F3w do edycji.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i miasto} \cell }{Miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i gridDetalePogody} \cell }{DataGrid zawieraj\'C4\'85cy szczeg\'C3\'B3\'C5\'82y pogody w wybranym mie\'C5\'9Bcie.\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v InitializeComponent\:Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.WpisWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.WpisWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:Projekt.WpisWindow}
+{\xe \v Projekt.WpisWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.WpisWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/WpisWindow/{\b WpisWindow.g.i.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/obj/Debug/{\b WpisWindow.g.cs}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/WpisWindow/{\b WpisWindow.xaml.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.WpisWindow.WpisWindowMetody Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b DodajModyfikacje} (List< {\b Pogoda} > doEdycji)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b WypelnijDanymi} (List< {\b Pogoda} > doEdycji, CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, Calendar Kalendarz, TextBox CienienieTextBox, TextBox TemperaturaTextBox, Button DodajButton)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia TextBox w oknie danymi wybranego wpisu. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b DodajDoBazy} (List< {\b Pogoda} > doDodania)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dodaje nowy wpis do bazy danych. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Pogoda} > {\b BudujDodawanieParser} (int Id, CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CienienieTextBox, TextBox TemperaturaTextBox)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Buduje list\'C4\'99 wpis\'C3\'B3w do bazy danych uwzgl\'C4\'99dniaj\'C4\'85c dodane. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Pogoda} > {\b BudujDodawanieParser} (CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CienienieTextBox, TextBox TemperaturaTextBox)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Buduje list\'C4\'99 wpis\'C3\'B3w do bazy danych uwzgl\'C4\'99dniaj\'C4\'85c dodane. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v BudujDodawanieParser\:Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody\:BudujDodawanieParser}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b Pogoda}> Projekt.Klasy.WpisWindow.WpisWindowMetody.BudujDodawanieParser (int  {\i Id}, CheckBox  {\i DeszczCheckBox}, CheckBox  {\i SniegCheckBox}, CheckBox  {\i ZachmurzenieCheckBox}, string  {\i _miasto}, Calendar  {\i Kalendarz}, TextBox  {\i CienienieTextBox}, TextBox  {\i TemperaturaTextBox})}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Buduje list\'C4\'99 wpis\'C3\'B3w do bazy danych uwzgl\'C4\'99dniaj\'C4\'85c dodane. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i Id} \cell }{Idntyfikator wpisu.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i DeszczCheckBox} \cell }{DeszczCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i SniegCheckBox} \cell }{SniegCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i ZachmurzenieCheckBox} \cell }{ZachmurzenieCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i _miasto} \cell }{miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i Kalendarz} \cell }{Kalendarz.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i CienienieTextBox} \cell }{Kontrolka tekstowa ci\'C5\'9Bnienia.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i TemperaturaTextBox} \cell }{Kontrolka tekstowa temperatury.\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Returns:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid Lista dodanych wpis\'F3w.\par
+}}}
+{\xe \v BudujDodawanieParser\:Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody\:BudujDodawanieParser}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b Pogoda}> Projekt.Klasy.WpisWindow.WpisWindowMetody.BudujDodawanieParser (CheckBox  {\i DeszczCheckBox}, CheckBox  {\i SniegCheckBox}, CheckBox  {\i ZachmurzenieCheckBox}, string  {\i _miasto}, Calendar  {\i Kalendarz}, TextBox  {\i CienienieTextBox}, TextBox  {\i TemperaturaTextBox})}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Buduje list\'C4\'99 wpis\'C3\'B3w do bazy danych uwzgl\'C4\'99dniaj\'C4\'85c dodane. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i Id} \cell }{Idntyfikator wpisu.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i DeszczCheckBox} \cell }{DeszczCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i SniegCheckBox} \cell }{SniegCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i ZachmurzenieCheckBox} \cell }{ZachmurzenieCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i _miasto} \cell }{miasto wybrane przez u\'C5\'BCytkownika.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i Kalendarz} \cell }{Kalendarz.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i CienienieTextBox} \cell }{Kontrolka tekstowa ci\'C5\'9Bnienia.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i TemperaturaTextBox} \cell }{Kontrolka tekstowa temperatury.\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Returns:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid Lista dodanych wpis\'F3w.\par
+}}}
+{\xe \v DodajDoBazy\:Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody\:DodajDoBazy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.WpisWindow.WpisWindowMetody.DodajDoBazy (List< {\b Pogoda} >  {\i doDodania})}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dodaje nowy wpis do bazy danych. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i doDodania} \cell }{Lista wpis\'F3w do dodania.\cell }
+{\row }
+}
+}}
+{\xe \v DodajModyfikacje\:Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody\:DodajModyfikacje}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.WpisWindow.WpisWindowMetody.DodajModyfikacje (List< {\b Pogoda} >  {\i doEdycji})}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+}}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Dodaje modyfikacje wpis\'F3w do bazy danych. \par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i doEdycji} \cell }{Lista wpis\'F3w bazy danych do edycji.\cell }
+{\row }
+}
+}}
+{\xe \v WypelnijDanymi\:Projekt.Klasy.WpisWindow.WpisWindowMetody}
+{\xe \v Projekt.Klasy.WpisWindow.WpisWindowMetody\:WypelnijDanymi}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.WpisWindow.WpisWindowMetody.WypelnijDanymi (List< {\b Pogoda} >  {\i doEdycji}, CheckBox  {\i DeszczCheckBox}, CheckBox  {\i SniegCheckBox}, CheckBox  {\i ZachmurzenieCheckBox}, Calendar  {\i Kalendarz}, TextBox  {\i CienienieTextBox}, TextBox  {\i TemperaturaTextBox}, Button  {\i DodajButton})}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Wype\'C5\'82nia TextBox w oknie danymi wybranego wpisu. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i doEdycji} \cell }{Lista wpis\'F3w do edycji.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i DeszczCheckBox} \cell }{DeszczCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i SniegCheckBox} \cell }{SniegCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i ZachmurzenieCheckBox} \cell }{ZachmurzenieCheckBox.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i Kalendarz} \cell }{Kalendarz\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i CisnienieTextBox} \cell }{Kontrolka tekstowa ci\'C5\'9Bnienia.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i TemperaturaTextBox} \cell }{Kontrolka tekstowa temperatury.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i DodajButton} \cell }{Przycisk DodajButton.\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/WpisWindow/{\b WpisWindowMetody.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt.Klasy.ZapisOdczytPliku.ZapisJSON Class Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt.Klasy.ZapisOdczytPliku.ZapisJSON}
+{\xe \v Projekt.Klasy.ZapisOdczytPliku.ZapisJSON}
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+Inheritance diagram for Projekt.Klasy.ZapisOdczytPliku.ZapisJSON:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_projekt_1_1_klasy_1_1_zapis_odczyt_pliku_1_1_zapis_j_s_o_n.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ZapisJSON} (List< {\b Pogoda} > doSerializacji, string m)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b ZapisJSON}. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b ZapiszPlik} (string m)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Zapisuje plik w formacie JSON, wy\'C5\'9Bwietla informacj\'C4\'99 o powodzeniu lub niepowodzeniu serializacji. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v ZapisJSON\:Projekt.Klasy.ZapisOdczytPliku.ZapisJSON}
+{\xe \v Projekt.Klasy.ZapisOdczytPliku.ZapisJSON\:ZapisJSON}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Projekt.Klasy.ZapisOdczytPliku.ZapisJSON.ZapisJSON (List< {\b Pogoda} >  {\i doSerializacji}, string  {\i m})}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Konstruktor nowej instancji klasy {\b ZapisJSON}. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i doSerializacji} \cell }{Lista wpis\'F3w do serializacji.\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i m} \cell }{Miasto wybrane przez u\'C5\'BCytkownika\cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v ZapiszPlik\:Projekt.Klasy.ZapisOdczytPliku.ZapisJSON}
+{\xe \v Projekt.Klasy.ZapisOdczytPliku.ZapisJSON\:ZapiszPlik}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Projekt.Klasy.ZapisOdczytPliku.ZapisJSON.ZapiszPlik (string  {\i m})}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Zapisuje plik w formacie JSON, wy\'C5\'9Bwietla informacj\'C4\'99 o powodzeniu lub niepowodzeniu serializacji. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i m} \cell }{Miasto wybrane przz u\'C5\'BCytkownika.\cell }
+{\row }
+}
+}{
+Implements {\b Projekt.IZapisywalny} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projekt/PogodaWindow/{\b ZapisJSON.cs}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+packages/Newtonsoft.Json.12.0.1/LICENSE.md File Reference\par \pard\plain 
+{\tc\tcl2 \v packages/Newtonsoft.Json.12.0.1/LICENSE.md}
+{\xe \v packages/Newtonsoft.Json.12.0.1/LICENSE.md}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/App.xaml.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/App.xaml.cs}
+{\xe \v Projekt/App.xaml.cs}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.App}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Baza/Baza.Context.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Baza/Baza.Context.cs}
+{\xe \v Projekt/Baza/Baza.Context.cs}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Baza.ProjektEntities2}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Baza}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Baza/Baza.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Baza/Baza.cs}
+{\xe \v Projekt/Baza/Baza.cs}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Baza/Baza.Designer.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Baza/Baza.Designer.cs}
+{\xe \v Projekt/Baza/Baza.Designer.cs}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Baza/Pogoda.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Baza/Pogoda.cs}
+{\xe \v Projekt/Baza/Pogoda.cs}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Baza.Pogoda}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Klasa dla wpisu z bazy danych. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Baza}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Baza/WpisBazaDanych.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Baza/WpisBazaDanych.cs}
+{\xe \v Projekt/Baza/WpisBazaDanych.cs}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.WpisBazaDanych}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/IZapisywalny.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/IZapisywalny.cs}
+{\xe \v Projekt/IZapisywalny.cs}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+interface {\b Projekt.IZapisywalny}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/MainWindow/MainWindow.xaml.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/MainWindow/MainWindow.xaml.cs}
+{\xe \v Projekt/MainWindow/MainWindow.xaml.cs}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.MainWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/MainWindow/MainWindowMetody.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/MainWindow/MainWindowMetody.cs}
+{\xe \v Projekt/MainWindow/MainWindowMetody.cs}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Klasy.MainWindow.MainWindowMetody}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy.MainWindow}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/App.g.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/App.g.cs}
+{\xe \v Projekt/obj/Debug/App.g.cs}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.App}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/App.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/App.g.i.cs}
+{\xe \v Projekt/obj/Debug/App.g.i.cs}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.App}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Interaction logic for App.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/Baza/PogodaWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/Baza/PogodaWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/Baza/PogodaWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/PogodaWindow/PogodaWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/PogodaWindow/PogodaWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/PogodaWindow/PogodaWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/PogodaWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/PogodaWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/PogodaWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/MainWindow.g.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/MainWindow.g.cs}
+{\xe \v Projekt/obj/Debug/MainWindow.g.cs}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.MainWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/MainWindow/MainWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/MainWindow/MainWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/MainWindow/MainWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.MainWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/MainWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/MainWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/MainWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.MainWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Obs\'C5\'82uga dla MainWindow.xaml }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/PogodaWindow.g.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/PogodaWindow.g.cs}
+{\xe \v Projekt/obj/Debug/PogodaWindow.g.cs}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/Projekt_Content.g.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/Projekt_Content.g.cs}
+{\xe \v Projekt/obj/Debug/Projekt_Content.g.cs}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/Projekt_Content.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/Projekt_Content.g.i.cs}
+{\xe \v Projekt/obj/Debug/Projekt_Content.g.i.cs}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs}
+{\xe \v Projekt/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs}
+{\xe \v Projekt/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs}
+{\xe \v Projekt/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/WpisWindow.g.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/WpisWindow.g.cs}
+{\xe \v Projekt/obj/Debug/WpisWindow.g.cs}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.WpisWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/WpisWindow/WpisWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/WpisWindow/WpisWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/WpisWindow/WpisWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.WpisWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/obj/Debug/WpisWindow.g.i.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/obj/Debug/WpisWindow.g.i.cs}
+{\xe \v Projekt/obj/Debug/WpisWindow.g.i.cs}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.WpisWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/PogodaWindow/PogodaWindow.xaml.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/PogodaWindow/PogodaWindow.xaml.cs}
+{\xe \v Projekt/PogodaWindow/PogodaWindow.xaml.cs}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.PogodaWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b PogodaWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/PogodaWindow/PogodaWindowMetody.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/PogodaWindow/PogodaWindowMetody.cs}
+{\xe \v Projekt/PogodaWindow/PogodaWindowMetody.cs}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Klasy.PogodaWindow.PogodaWindowMetody}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy.PogodaWindow}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/PogodaWindow/ZapisJSON.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/PogodaWindow/ZapisJSON.cs}
+{\xe \v Projekt/PogodaWindow/ZapisJSON.cs}
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Klasy.ZapisOdczytPliku.ZapisJSON}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy.ZapisOdczytPliku}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Properties/AssemblyInfo.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Properties/AssemblyInfo.cs}
+{\xe \v Projekt/Properties/AssemblyInfo.cs}
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Properties/Resources.Designer.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Properties/Resources.Designer.cs}
+{\xe \v Projekt/Properties/Resources.Designer.cs}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Properties.Resources}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A strongly-typed resource class, for looking up localized strings, etc. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Properties}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/Properties/Settings.Designer.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/Properties/Settings.Designer.cs}
+{\xe \v Projekt/Properties/Settings.Designer.cs}
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Properties.Settings}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Properties}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/WpisWindow/WpisWindow.xaml.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/WpisWindow/WpisWindow.xaml.cs}
+{\xe \v Projekt/WpisWindow/WpisWindow.xaml.cs}
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.WpisWindow}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b WpisWindow} }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Projekt/WpisWindow/WpisWindowMetody.cs File Reference\par \pard\plain 
+{\tc\tcl2 \v Projekt/WpisWindow/WpisWindowMetody.cs}
+{\xe \v Projekt/WpisWindow/WpisWindowMetody.cs}
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Projekt.Klasy.WpisWindow.WpisWindowMetody}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Projekt.Klasy.WpisWindow}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

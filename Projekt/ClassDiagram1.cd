@@ -17,22 +17,15 @@
   <Class Name="Projekt.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAA=</HashCode>
       <FileName>MainWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Projekt.PogodaMiasto" Collapsed="true">
-    <Position X="3" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PogodaMiasto.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Projekt.PogodaWindow" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="4.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAIACQAAACIAAgAIAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAIACAAAACIAAgAIAAAAAAAAAAAAA=</HashCode>
       <FileName>PogodaWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -40,7 +33,7 @@
   <Class Name="Projekt.WpisWindow" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="6.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAIAAgAAAAAAAAAAAAEAA=</HashCode>
+      <HashCode>AAAAAAAAAAIAAAAAKAAAAAAAIAAgAAAAAAAAAAAAEAA=</HashCode>
       <FileName>WpisWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -55,7 +48,7 @@
   <Class Name="Projekt.Baza.Pogoda" Collapsed="true">
     <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAABAAAAIAIAAQAAAAAABgAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAABAAAAAAIAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>Baza\Pogoda.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -63,28 +56,29 @@
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAgAAACAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Klasy\MainWindow\MainWindowMetody.cs</FileName>
+      <FileName>MainWindow\MainWindowMetody.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Projekt.Klasy.PogodaWindow.PogodaWindowMetody" Collapsed="true">
     <Position X="6.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAIAAAAAAEAAAAAABAAAAAAAAEAA=</HashCode>
-      <FileName>Klasy\PogodaWindow\PogodaWindowMetody.cs</FileName>
+      <FileName>PogodaWindow\PogodaWindowMetody.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Projekt.Klasy.ZapisOdczytPliku.ZapisJSON" Collapsed="true">
     <Position X="3" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
-      <FileName>Klasy\PogodaWindow\ZapisJSON.cs</FileName>
+      <FileName>PogodaWindow\ZapisJSON.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Projekt.Klasy.WpisWindow.WpisWindowMetody" Collapsed="true">
     <Position X="8.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAgAAIAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Klasy\WpisWindow\WpisWindowMetody.cs</FileName>
+      <FileName>WpisWindow\WpisWindowMetody.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Projekt.Properties.Resources" Collapsed="true">

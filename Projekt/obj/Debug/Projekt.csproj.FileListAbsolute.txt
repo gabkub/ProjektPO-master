@@ -30,16 +30,10 @@ D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\bin
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\bin\Debug\Newtonsoft.Json.pdb
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\bin\Debug\Newtonsoft.Json.xml
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.csprojAssemblyReference.cache
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\MainWindow.g.cs
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\PogodaWindow.g.cs
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\WpisWindow.g.cs
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\App.g.cs
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt_Content.g.cs
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt_MarkupCompile.cache
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt_MarkupCompile.lref
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\MainWindow.baml
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\PogodaWindow.baml
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\WpisWindow.baml
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.g.resources
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.Properties.Resources.resources
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
@@ -47,3 +41,9 @@ D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.csproj.CopyComplete
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.exe
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\Projekt.pdb
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\MainWindow.g.cs
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\PogodaWindow.g.cs
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\WpisWindow.g.cs
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\MainWindow.baml
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\PogodaWindow.baml
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\Projekt\obj\Debug\WpisWindow.baml

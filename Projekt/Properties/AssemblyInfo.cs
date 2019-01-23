@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Runtime.CompilerServices;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -49,3 +50,7 @@ using System.Windows;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: InternalsVisibleTo("Projekt.Tests")]
+[assembly: InternalsVisibleTo("Projekt.Explorables")]
+[assembly: InternalsVisibleTo("Projekt.Tests1")]
+
