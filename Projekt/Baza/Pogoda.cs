@@ -11,11 +11,12 @@ namespace Projekt.Baza
 {
     using System;
     using System.Collections.Generic;
-    
+    /// <summary>
+    /// Klasa dla wpisu z bazy danych.
+    /// </summary>
+    /// <seealso cref="Projekt.WpisBazaDanych" />
     public partial class Pogoda : WpisBazaDanych
     {
-        public int IdWpisu { get; set; }
-        public Nullable<DateTime> Data { get; set; }
         public string Miasto { get; set; }
         public Nullable<int> Temperatura { get; set; }
         public string Ciśnienie { get; set; }
