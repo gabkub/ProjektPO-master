@@ -1,6 +1,3 @@
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.exe.config
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.exe
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt\bin\Debug\Projekt.pdb
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.csprojAssemblyReference.cache
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\MainWindow.g.cs
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\PogodaWindow.g.cs
@@ -19,3 +16,6 @@ D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.csproj.CopyComplete
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.exe
 D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Projekt\Debug\Projekt.pdb
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt.exe.config
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt.exe
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Projekt.pdb
