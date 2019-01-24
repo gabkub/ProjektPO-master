@@ -1,8 +1,0 @@
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Testy\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Testy\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Testy\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\Testy\bin\Debug\Testy.dll
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Testy\Debug\Testy.csprojAssemblyReference.cache
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Testy\Debug\Testy.csproj.CoreCompileInputs.cache
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Testy\Debug\Testy.csproj.CopyComplete
-D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\Testy\Debug\Testy.dll

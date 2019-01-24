@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.IO;
+
 namespace Projekt.Baza
 {
     using System;

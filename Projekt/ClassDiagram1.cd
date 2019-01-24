@@ -62,7 +62,7 @@
   <Class Name="Projekt.Klasy.PogodaWindow.PogodaWindowMetody" Collapsed="true">
     <Position X="6.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAABAAAAAIAAAAAAEAAAAAABAAAAAAAAEAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PogodaWindow\PogodaWindowMetody.cs</FileName>
     </TypeIdentifier>
   </Class>

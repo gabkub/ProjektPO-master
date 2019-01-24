@@ -1,0 +1,4 @@
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\b\ProjektTests1.dll
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\ProjektTests1\Debug\ProjektTests1.csproj.CoreCompileInputs.cache
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\ProjektTests1\Debug\ProjektTests1.csproj.CopyComplete
+D:\Studia\Semestr 3\PO\Projekt\ProjektPO-master (1)\ProjektPO-master\.vs\Projekt\lut\0\i\ProjektTests1\Debug\ProjektTests1.dll

@@ -83,10 +83,10 @@ namespace Projekt.Klasy.WpisWindow
         /// <param name="ZachmurzenieCheckBox">ZachmurzenieCheckBox.</param>
         /// <param name="_miasto">miasto wybrane przez użytkownika.</param>
         /// <param name="Kalendarz">Kalendarz.</param>
-        /// <param name="CienienieTextBox">Kontrolka tekstowa ciśnienia.</param>
+        /// <param name="CisnienieTextBox">Kontrolka tekstowa ciśnienia.</param>
         /// <param name="TemperaturaTextBox">Kontrolka tekstowa temperatury.</param>
         /// <returns>Lista dodanych wpisów.</returns>
-        public List<Pogoda> BudujDodawanieParser(int Id, CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CienienieTextBox, TextBox TemperaturaTextBox)
+        public List<Pogoda> BudujDodawanieParser(int Id, CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CisnienieTextBox, TextBox TemperaturaTextBox)
         {
             List<Pogoda> dodaj = new List<Pogoda>();
 
@@ -105,7 +105,7 @@ namespace Projekt.Klasy.WpisWindow
                         IdWpisu = Id,
                         Miasto = _miasto,
                         Data = Kalendarz.SelectedDate.Value,
-                        Ciśnienie = CienienieTextBox.Text,
+                        Ciśnienie = CisnienieTextBox.Text,
                         Deszcz = deszcz,
                         Śnieg = snieg,
                         Zachmurzenie = zachmurzenie,
@@ -130,10 +130,10 @@ namespace Projekt.Klasy.WpisWindow
         /// <param name="ZachmurzenieCheckBox">ZachmurzenieCheckBox.</param>
         /// <param name="_miasto">miasto wybrane przez użytkownika.</param>
         /// <param name="Kalendarz">Kalendarz.</param>
-        /// <param name="CienienieTextBox">Kontrolka tekstowa ciśnienia.</param>
+        /// <param name="CisnienieTextBox">Kontrolka tekstowa ciśnienia.</param>
         /// <param name="TemperaturaTextBox">Kontrolka tekstowa temperatury.</param>
         /// <returns>Lista dodanych wpisów.</returns>
-        public List<Pogoda> BudujDodawanieParser(CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CienienieTextBox, TextBox TemperaturaTextBox)
+        public List<Pogoda> BudujDodawanieParser(CheckBox DeszczCheckBox, CheckBox SniegCheckBox, CheckBox ZachmurzenieCheckBox, string _miasto, Calendar Kalendarz, TextBox CisnienieTextBox, TextBox TemperaturaTextBox)
         {
             List<Pogoda> dodaj = new List<Pogoda>();
 
@@ -151,7 +151,7 @@ namespace Projekt.Klasy.WpisWindow
                     {
                         Miasto = _miasto,
                         Data = Kalendarz.SelectedDate.Value,
-                        Ciśnienie = CienienieTextBox.Text,
+                        Ciśnienie = CisnienieTextBox.Text,
                         Deszcz = deszcz,
                         Śnieg = snieg,
                         Zachmurzenie = zachmurzenie,

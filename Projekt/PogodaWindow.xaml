@@ -26,5 +26,6 @@
         <Button x:Name="DodajButton" Content="Dodaj wpis" Margin="328,79,0,0" VerticalAlignment="Top" Click="DodajButton_Click" HorizontalAlignment="Left" Width="110" Grid.Column="1" />
         <Button x:Name="ModyfikujButton" Content="Modyfikuj" HorizontalAlignment="Left" Margin="328,104,0,0" VerticalAlignment="Top" Width="110" Click="ModyfikujButton_Click" IsEnabled="{Binding ElementName=GridDetalePogody, Path=SelectedItems.Count}" Grid.Column="1" />
         <Button x:Name="UsunButton" Content="Usuń" Margin="328,129,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110" Click="UsunButton_Click" IsEnabled="{Binding ElementName=GridDetalePogody, Path=SelectedItems.Count}" Grid.Column="1" />
+
     </Grid>
 </Window>
